@@ -13,8 +13,13 @@ Sentences = {
     ],
 '0311':[
     "In our fast-paced world, giving gifts is still a big deal.",
-    "Whether it's for birthdays, holidays, or just to appreciation, it's a tradition that brings people together.",
+    "Whether it's for birthdays, holidays, or just to show appreciation, it's a tradition that brings people together.",
     "I recently got a potted plant from a friend, which keeps reminding me of her affection and presence in my life."
+    ],
+'0312':[
+    "I'm aiming to make more time for my family and friends.",
+    "Life can often get busy, and it's easy to neglect the people who mean the most to us.",
+    "I plan to schedule regular get-togethers and make an effort to stay in touch with my loved ones."
     ],
 }
 
