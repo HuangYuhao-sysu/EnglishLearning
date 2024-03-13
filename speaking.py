@@ -21,6 +21,11 @@ Sentences = {
     "Life can often get busy, and it's easy to neglect the people who mean the most to us.",
     "I plan to schedule regular get-togethers and make an effort to stay in touch with my loved ones."
     ],
+'0313':[
+    "When it comes to films, I have a pretty diverse taste.",
+    "However, I would say that I particularly enjoy two main genres, dramas and science fiction",
+    "Both dramas and science fiction provide me with an escape from reality.",
+    ],
 }
 
 print(Sentences['0305'])
