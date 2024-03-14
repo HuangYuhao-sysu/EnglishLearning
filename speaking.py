@@ -26,6 +26,11 @@ Sentences = {
     "However, I would say that I particularly enjoy two main genres, dramas and science fiction",
     "Both dramas and science fiction provide me with an escape from reality.",
     ],
+'0314':[
+    "Introverts often prefer quiet and solitary environments.",
+    "They enjoy reflecting on their own ideas, and are often good at tasks that require concentration and focus.",
+    "This can be an asset in fields like writing, programming, or research, where deep thinking is key.",
+    ],
 }
 
 print(Sentences['0305'])
