@@ -31,6 +31,11 @@ Sentences = {
     "They enjoy reflecting on their own ideas, and are often good at tasks that require concentration and focus.",
     "This can be an asset in fields like writing, programming, or research, where deep thinking is key.",
     ],
+'0315':[
+    "While artificial intelligence is certainly transforming the job market, it's not going to completely eliminate the human workers.",
+    "AI can take over some of the routine work, freeing up humans to focus on more complex and critical tasks.",
+    "Many jobs require human qualities like empathy, critical-thinking and problem-solving, which AI is still far from replicating.",
+    ],
 }
 
 print(Sentences['0305'])
