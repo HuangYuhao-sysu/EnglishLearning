@@ -48,5 +48,9 @@ words = {
     'tranquility':'the tranquility of nature',
     'facilitate':'facilitate communication',
     'grand':'a grand celebration',
-
+    'disapprove':'People today strongly disapprove of gender discrimination.',
+    'responsible':'responsible for promoting gender equality.',
+    'sensitive':'sensitive to criticism',
+    'stressed':'Feeling stressed after an exam.',
+    'stressful':'A stressful situation',
 }
