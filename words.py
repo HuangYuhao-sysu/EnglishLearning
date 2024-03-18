@@ -108,5 +108,6 @@ words = {
     'adolescent':'adolescent development',
     'adolescence':'adolescence development',
     'associate':'associate professor',
-
+    'pour':'The government has poured money into tackling crime in cities.',
+    'opportunity':'People value every opportunity to escape the city.',
 }
