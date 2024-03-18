@@ -53,4 +53,5 @@ words = {
     'sensitive':'sensitive to criticism',
     'stressed':'Feeling stressed after an exam.',
     'stressful':'A stressful situation',
+    'acumen':'I\'ve always respected your business acumen.',
 }
