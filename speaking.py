@@ -40,7 +40,7 @@ Sentences = {
     "During the pandemic, I had to adapt to online learning, which presented some challenges.",
     "Staying focused and motivated while learning remotely is difficult, but I managed to overcome these obstacles.",
     "I believe online learning will continue to evolve and become more effective in the future.",
-]
+    ],
 }
 
 print(Sentences['1'])
