@@ -41,6 +41,11 @@ Sentences = {
     "Staying focused and motivated while learning remotely is difficult, but I managed to overcome these obstacles.",
     "I believe online learning will continue to evolve and become more effective in the future.",
     ],
+'9':[
+    "My dream is to become a published author, sharing my stories and ideas with the world.",
+    "I'm working hard to achieve this dream by writing regularly, and seeking feedback from others.",
+    "I recently finished my first draft of a novel, and I'm really proud.",
+    ],
 }
 
 print(Sentences['1'])
