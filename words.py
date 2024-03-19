@@ -110,4 +110,12 @@ words = {
     'associate':'associate professor',
     'pour':'The government has poured money into tackling crime in cities.',
     'opportunity':'People value every opportunity to escape the city.',
+    'coastline':'coastline erosion',
+    'corn':'corn on the cob',
+    'spear':'spear fishing',
+    'herd':'a herd of cows',
+    'germination':'seed germination',
+    'code':'dress code',
+    'sawdust':'sawdust on the floor',
+    'refrigeration':'refrigeration system',
 }
