@@ -164,3 +164,62 @@ words = {
     'patriotic':['patriotic song','patriot'],
     'compatriot':['fellow compatriots'],
 }
+
+import random
+
+# 更新后的单词库，包含一些只有短语没有相关单词的单词
+words = {
+    'rudimentary': ['rudimentary skills'],
+    'courtship': ['courtship rituals', 'related word'],
+    'ritual': ['courtship rituals', 'related word'],
+}
+
+# 用于跟踪每个单词的正确情况
+attempts = 0
+correct_answers = 0
+
+while words:
+    # 从字典中随机选择一个单词
+    word = random.choice(list(words.keys()))
+    print(f"Word: {word}")
+    
+    # 用户输入短语
+    phrase_input = input("Enter the phrase of the word: ").lower()
+    correct_phrase = words[word][0].lower()
+    
+    # 检查短语是否正确
+    if phrase_input == correct_phrase:
+        print("Correct phrase!")
+        correct_answers += 1
+    else:
+        print(f"Incorrect phrase. The correct one is '{correct_phrase}'.")
+    attempts += 1
+    
+    # 如果存在相关单词，检查相关单词是否正确
+    if len(words[word]) > 1:
+        relative_word_input = input("Enter the relative word (or press enter if none): ").lower()
+        correct_relative_word = words[word][1].lower()
+        
+        if relative_word_input == correct_relative_word:
+            print("Correct relative word!")
+            correct_answers += 1
+        else:
+            print(f"Incorrect relative word. The correct one is '{correct_relative_word}'.")
+        attempts += 1
+    
+    # 从字典中移除已经抽取的单词
+    del words[word]
+    
+    # 检查是否还有单词，如果没有，结束循环
+    if not words:
+        print("All words have been practiced.")
+        break
+
+# 计算正确率
+correct_rate = (correct_answers / attempts) * 100
+
+# 生成报告
+print("\nPractice Report:")
+print(f"Total Attempts: {attempts}")
+print(f"Correct Answers: {correct_answers}")
+print(f"Accuracy Rate: {correct_rate:.2f}%") 
