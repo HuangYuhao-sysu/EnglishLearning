@@ -46,6 +46,11 @@ Sentences = {
     "I'm working hard to achieve this dream by writing regularly, and seeking feedback from others.",
     "I recently finished my first draft of a novel, and I'm really proud.",
     ],
+'10':[
+    "Social media has become a powerful tool for connecting with people from all over the world.",
+    "I use social media to share my experiences, learn new things, and connect with like-minded individuals.",
+    "However, it's important to use it responsibly, avoiding its potential pitfalls such as addiction and misinformation.",
+    ],
 }
 
 print(Sentences['1'])
