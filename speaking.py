@@ -51,6 +51,11 @@ Sentences = {
     "I use social media to share my experiences, learn new things, and connect with like-minded individuals.",
     "However, it's important to use it responsibly, avoiding its potential pitfalls such as addiction and misinformation.",
     ],
+'11':[
+    "Cinema has always fascinated me, it offers a unique way of experiencing stories and emotions.",
+    "I remember watching my first film as a child, and being transported into a whole new world.",
+    "Cinema is magical because it deeply affects our hearts and minds. Some movies can leave a lasting impression on us.",
+    ],
 }
 
 print(Sentences['1'])
