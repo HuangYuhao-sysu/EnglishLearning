@@ -56,6 +56,11 @@ Sentences = {
     "I remember watching my first film as a child, and being transported into a whole new world.",
     "Cinema is magical because it deeply affects our hearts and minds. Some movies can leave a lasting impression on us.",
     ],
+'12':[
+    "I've learned that perseverance is key to overcoming challenges and achieving my goals.",
+    "When faced with difficulties, I remind myself that perseverance will eventually lead to success.",
+    "The sense of accomplishment I feel after persevering through a challenge is incredibly rewarding.",
+    ],
 }
 
 print(Sentences['1'])
