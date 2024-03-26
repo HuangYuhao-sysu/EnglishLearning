@@ -56,15 +56,20 @@ Sentences = {
     "I remember watching my first film as a child, and being transported into a whole new world.",
     "Cinema is magical because it deeply affects our hearts and minds. Some movies can leave a lasting impression on us.",
     ],
-'12':[
+'12 perseverance':[
     "I've learned that perseverance is key to overcoming challenges and achieving my goals.",
     "When faced with difficulties, I remind myself that perseverance will eventually lead to success.",
     "The sense of accomplishment I feel after persevering through a challenge is incredibly rewarding.",
     ],
-'13':[
+'13 diet':[
     "I follow a balanced diet, incorporating a variety of fruits, vegetables and whole grains into my meals.",
     "I enjoy trying new cuisines and exploring different flavors from around the world.",
     "I believe that healthy eating habits are crucial form maintaining good health and well-being.",
+    ],
+'14 running':[
+    "Running is a solitary yet rejuvenating activity.",
+    "It's a great way to stay fit and healthy. I enjoy the sense of accomplishment after a long run.",
+    "Running clears my mind and helps me unwind after a stressful day. It's become a regular part of my daily routine.",
     ],
 }
 
