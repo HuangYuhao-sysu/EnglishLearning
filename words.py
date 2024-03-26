@@ -635,6 +635,21 @@ words = {
     'Celsius':['30 degrees Celsius'],
     'Fahrenheit':['60 degrees Fahrenheit'],
     'courageous':['a courageous decision'],
+    'quarry':['stone quarry'],
+    'precious':['precious stone'],
+    'precaution':['take precautions'],
+    'pal':['the best pal'],
+    'hitchhike':['hitchhike across the country'],
+    'projector':['movie projector'],
+    'overdue':['overdue and pay a fine'],
+    'out on loan':['the book you wanted is out on loan'],
+    'oriental':['oriental rug'],
+    'obligatory':['obligatory courses'],
+    'nursery':['nursery'],
+    'martial':['martial arts'],
+    'instant':['instant coffee'],
+    'haunt':['haunted house'],
+    'honeymoon':['honeymoon phase'],
 }
 
 import random
