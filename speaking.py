@@ -71,6 +71,11 @@ Sentences = {
     "It's a great way to stay fit and healthy. I enjoy the sense of accomplishment after a long run.",
     "Running clears my mind and helps me unwind after a stressful day. It's become a regular part of my daily routine.",
     ],
+'15 traveling':[
+    "My most memorable travel experience was hiking through the Swiss Alps, surrounded by breathtaking scenery.",
+    "Traveling has taught me to appreciate diverse cultures and ways of life.",
+    "I always look forward to future travels, as they provide me with priceless life experiences and memories.",
+    ],
 }
 
 print(Sentences['1'])
