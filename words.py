@@ -650,56 +650,85 @@ words = {
     'instant':['instant coffee'],
     'haunt':['haunted house'],
     'honeymoon':['honeymoon phase'],
+    'preferable':['Working from home is preferable to commuting during rush hour.'],
+    'biometric':['biometric data'],
+    'reunite':['reunite with family'],
+    'minority':['ethnic minority'],
+    'clench':['He clenched his fists in anger.'],
+    'corpus':['corpus linguistics'],
+    'beam':['a beam ofl light'],
+    'conjunction':['in conjunction with'],
+    'nasty':['nasty surprise'],
+    'adequate':['adequate resources'],
+    'incentive':['financial incentive'],
+    'inventive':['an inventive solution'],
+    'chorus':['join the chorus'],
+    'scent':['scent of garlic'],
+    'hitherto':['a hitherto unknown species'],
+    'bullet':['take a bullet'],
+    'enclosure':['a wildlife enclosure'],
+    'revegetate':['revegetate to backyard'],
+    'sustain':['sustain growth'],
+    'sustainable':['sustainable development'],
+    'dispersal':['seed dispersal'],
+    'fabulous':['look fabulous'],
+    'rental':['a rental car'],
+    'rent':['rent a house'],
+    'obsession':['His obsession with perfection often gets in the way of completing project on time.'],
+    'fraught':['It\'s a time fraught with difficulties.'],
+    'ethereal':['ethereal beauty'],
+    'obtrusive':['obtrusive advertising'],
+    'underpin':['Use extensive data to underpin the report'],
+    'velocity':['the velocity of light'],
+    'unveil':['unveil a new product'],
+    'swivel':['a swivel chair'],
+    'replicate':['replicate the result'],
+    'capsize':['capsize a boat'],
+    'drum':['play the drum'],
+    'thorny':['thorny problem'],
+    'eligible':['Employees are eligible for the company\'s stock option plan]'],
+    'enrolment':['enrolment fee'],
+    'enroll':['enroll in a course'],
+    'emerge':['emerge victorious'],
+    'submerge':['submerge underwater'],
+    'granite':['granite countertop'],
+    'approximate':['an approximate value'],
+    'gallery':['an art gallery'],
+    'swing':['swing into action'],
+    'spectrum':['broad spectrum'],
+    'vested':['vested interest'],
+    'symphony':['symphony orchestra'],
+    'alter':['alter the course'],
+    'disqualify':['disqualify from competition'],
+    'administer':['administer a test'],
+    'administrator':['system administrator'],
+    'inventory':['inventory management'],
+    'aeration':['soil aeration'],
+    'profitable':['profitable business'],
+    'virus':['computer virus'],
+    'faith':['leap of faith'],
+    'cafeteria':['cafeteria'],
+    'dairy':['dairy cow'],
+    'confirm':['confirm a rumor'],
+    'hinge':['hinge on'],
+    'subsidy':['government subsidies'],
+    'stain':['remove a stain'],
+    'unload':['unload goods'],
+    'irrelevant':['irrelevant information'],
+    'relevant':['relevant information'],
+    'thrill':['seek a thrill'],
+    'extol':['extol the virtues'],
+    'albeit':['She achieve her goal, albeit difficult, by sheer determination and hard work.'],
+    'obstacle':['overcome an obstacle'],
+    'meagre':['meagre resources'],
+    'precipitation':['annual precipitation'],
+    'precarious':['in a precarious situation'],
+    'autonomy':['personal autonomy'],
+    'onslaught':['onslaught of criticism'],
+    'curtail':['curtail spending'],
+    'correlation':['correlation does not imply causation'],
+    'afflict':['afflict the population'],
+    'afflicting':['knowing the truth is afflicting'],
+    'incongruous':['looks incongruous with'],
+    'incongruity':['sense of incongruity'],
 }
-
-import random
-
-# 用于跟踪每个单词的正确情况
-attempts = 0
-correct_answers = 0
-
-while words:
-    # 从字典中随机选择一个单词
-    word = random.choice(list(words.keys()))
-    print(f"Word: {word}")
-    
-    # 用户输入短语
-    phrase_input = input("Enter the phrase of the word: ").lower()
-    correct_phrase = words[word][0].lower()
-    
-    # 检查短语是否正确
-    if phrase_input == correct_phrase:
-        print("Correct phrase!")
-        correct_answers += 1
-    else:
-        print(f"Incorrect phrase. The correct one is '{correct_phrase}'.")
-    attempts += 1
-    
-    # 如果存在相关单词，检查相关单词是否正确
-    if len(words[word]) > 1:
-        relative_word_input = input("Enter the relative word (or press enter if none): ").lower()
-        correct_relative_word = words[word][1].lower()
-        
-        if relative_word_input == correct_relative_word:
-            print("Correct relative word!")
-            correct_answers += 1
-        else:
-            print(f"Incorrect relative word. The correct one is '{correct_relative_word}'.")
-        attempts += 1
-    
-    # 从字典中移除已经抽取的单词
-    del words[word]
-    
-    # 检查是否还有单词，如果没有，结束循环
-    if not words:
-        print("All words have been practiced.")
-        break
-
-# 计算正确率
-correct_rate = (correct_answers / attempts) * 100
-
-# 生成报告
-print("\nPractice Report:")
-print(f"Total Attempts: {attempts}")
-print(f"Correct Answers: {correct_answers}")
-print(f"Accuracy Rate: {correct_rate:.2f}%") 
