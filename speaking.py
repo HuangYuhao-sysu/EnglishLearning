@@ -76,6 +76,24 @@ Sentences = {
     "Traveling has taught me to appreciate diverse cultures and ways of life.",
     "I always look forward to future travels, as they provide me with priceless life experiences and memories.",
     ],
+'16 living area':[
+    "There have been more high-rise buildings in my neighborhood, making the area much denser than before.",
+    "Some cafes have been opened up in a few of those buildings.",
+    "I'm really happy with the construction of an outdoor gym, where I work out regularly.",
+    ],
 }
 
-print(Sentences['1'])
+import random
+
+keys = list(Sentences.keys())
+random.shuffle(keys)  # Randomly shuffle the keys
+
+for key in keys:
+    print(key)  # Print the current key
+    input("Press Enter to show the sentences...")  # Wait for Enter key press
+    print("\n---\n")  # Print a separator after each key's sentences
+    for sentence in Sentences[key]:
+        print(sentence)  # Print each sentence
+    print("\n---\n")  # Print a separator after each key's sentences
+
+print("All sentences reviewed!")
