@@ -924,3 +924,51 @@ words = {
     'vision':['have a poor vision'],
     'sausage':['pork sausage'],
 }
+
+import random
+
+words = {
+    'rudimentary': ['rudimentary skills'],
+    'courtship': ['courtship rituals'],
+    'ritual': ['courtship rituals'],
+    'stereoscopic': ['stereoscopic vision'],
+}
+
+def review_words(words):
+    total_words = len(words)
+    print(f"Review Overview: You have {total_words} words to review.\n")
+
+    keys = list(words.keys())
+    random.shuffle(keys)  # 打乱顺序以随机选择单词
+
+    incorrect_words = {}  # 存储未正确回答的单词
+    correct_count = 0  # 正确回答的数量
+
+    for key in keys:
+        first_phrase = words[key][0]
+        word_count = len(first_phrase.split())
+        print(f"Word to review:\n{key}. (First phrase word count: {word_count})")
+        user_input = input("Type a phrase or sentence using the word (or press Enter to skip): ").lower()
+
+        # 检查输入是否与任何value的元素匹配
+        if any(user_input == phrase.lower() for phrase in words[key]):
+            correct_count += 1
+            print(f"Correct! The correct answer was:\n{first_phrase}\n")
+        else:
+            incorrect_words[key] = words[key]
+            print(f"Incorrect. The correct answers were:\n{', '.join(words[key])}\n")
+
+    # 所有单词复习完成后的统计和输出
+    print(f"Review session complete. Correct: {correct_count}/{total_words} ({(correct_count/total_words)*100:.2f}%).")
+
+    if incorrect_words:
+        print("\nWords to review again:")
+        for key, value in incorrect_words.items():
+            print(f"{key}: {value}")
+
+    return incorrect_words
+
+incorrect_words = review_words(words)
+
+# 如果需要，你可以再次调用 review_words 函数来复习不正确的单词
+# incorrect_words = review_words(incorrect_words)
