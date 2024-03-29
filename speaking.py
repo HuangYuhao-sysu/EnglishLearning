@@ -81,6 +81,11 @@ Sentences = {
     "Some cafes have been opened up in a few of those buildings.",
     "I'm really happy with the construction of an outdoor gym, where I work out regularly.",
     ],
+'17 save money':[
+    "I save money by setting a budget and sticking to it, which helps me avoid unnecessary expenses.",
+    "Shopping around for the best deals and using coupons helps me save money on daily purchases.",
+    "I also save by investing long-term financial products, allowing my money to grow over time."
+    ],
 }
 
 import random
