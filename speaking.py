@@ -84,7 +84,7 @@ Sentences = {
 '17 save money':[
     "I save money by setting a budget and sticking to it, which helps me avoid unnecessary expenses.",
     "Shopping around for the best deals and using coupons helps me save money on daily purchases.",
-    "I also save by investing long-term financial products, allowing my money to grow over time."
+    "I also save by investing in long-term financial products, allowing my money to grow over time."
     ],
 '18 living house':[
     "I live in a cozy apartment located in the heart of the street.",
