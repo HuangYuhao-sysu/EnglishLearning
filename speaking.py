@@ -86,7 +86,13 @@ Sentences = {
     "Shopping around for the best deals and using coupons helps me save money on daily purchases.",
     "I also save by investing long-term financial products, allowing my money to grow over time."
     ],
+'18 living house':[
+    "I live in a cozy apartment located in the heart of the street.",
+    "It's a two bedroom unit with a small balcony that overlooks a busy street.",
+    "I used to live in a detached house in a quiet suburban neighborhood, which had a garden where I could relax and unwind.",
+    ],
 }
+
 
 import random
 
