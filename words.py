@@ -1582,7 +1582,6 @@ words = {
 
 import random
 
-
 words = {
     'rudimentary': ['rudimentary skills'],
     'courtship': ['courtship rituals'],
@@ -1592,7 +1591,7 @@ words = {
 
 def review_words(words):
     total_words = len(words)
-    print(f"Review Overview: You have {total_words} words to review.\n")
+    remaining_words = total_words
 
     keys = list(words.keys())
     random.shuffle(keys)  # 打乱顺序以随机选择单词
@@ -1604,6 +1603,8 @@ def review_words(words):
         first_phrase = words[key][0]
         word_count = len(first_phrase.split())
         print(f"Word to review:\n{key}. (First phrase word count: {word_count})")
+        print(f"You have {remaining_words} remaining words to review.\n")
+        remaining_words = remaining_words - 1
         user_input = input("Type a phrase or sentence using the word (or press Enter to skip): ").lower()
 
         # 检查输入是否与任何value的元素匹配
