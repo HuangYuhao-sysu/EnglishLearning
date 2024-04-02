@@ -92,9 +92,12 @@ import random
 
 keys = list(Sentences.keys())
 random.shuffle(keys)  # Randomly shuffle the keys
+remaining = len(keys)
 
 for key in keys:
     print(key)  # Print the current key
+    print("Remaining topic: " + str(remaining))
+    remaining = remaining - 1
     input("Press Enter to show the sentences...")  # Wait for Enter key press
     print("\n---\n")  # Print a separator after each key's sentences
     for sentence in Sentences[key]:
