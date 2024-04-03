@@ -96,6 +96,11 @@ Sentences = {
     "A recent medical check up make me realize the need for action.",
     "I've been exercising regularly, choosing healthier food options, and maintaining a good sleep schedule.",
     ],
+'20 a skill':[
+    "I was bored one day and decided to pick up a guitar that had been lying around in my house for years.",
+    "I downloaded some tutorials and started practising every day.",
+    "With practices and persistence, I gradually got better, and Within a few months, I could play some simple songs.",
+    ],
 }
 
 
