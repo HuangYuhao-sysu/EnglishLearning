@@ -91,6 +91,16 @@ Sentences = {
     "It's a two bedroom unit with a small balcony that overlooks a busy street.",
     "I used to live in a detached house in a quiet suburban neighborhood, which had a garden where I could relax and unwind.",
     ],
+'19 a recent change':[
+    "I've undergone a positive change in my health recently. I've started focusing on exercise and diet.",
+    "A recent medical check up make me realize the need for action.",
+    "I've been exercising regularly, choosing healthier food options, and maintaining a good sleep schedule.",
+    ],
+'20 a skill':[
+    "I was bored one day and decided to pick up a guitar that had been lying around in my house for years.",
+    "I downloaded some tutorials and started practising every day.",
+    "With practices and persistence, I gradually got better, and Within a few months, I could play some simple songs.",
+    ],
 }
 
 
