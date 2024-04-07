@@ -1578,6 +1578,17 @@ words = {
     'hormone':['hormone'],
     'politic':['politic decision'],
     'jurisprudence':['legal jurisprudence'],
+    'notion':['no notion of freedom'],
+    'essence':['the essence of joke is having fun'],
+    'preliminary':['preliminary results'],
+    'overwhelm':['overwhelm with emotion'],
+    'recursive':['recursive function'],
+    'underrepresented':['underrepresented group'],
+    'tremendous':['tremendous impact'],
+    'commerce':['international commerce'],
+    'leisure':['leisure activity'],
+    'esteem':['self-esteem'],
+    'conceive':['conceive an idea'],
 }
 
 import random
