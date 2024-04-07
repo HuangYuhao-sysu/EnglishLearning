@@ -78,7 +78,7 @@ Sentences = {
     ],
 '16 living area':[
     "There have been more high-rise buildings in my neighborhood, making the area much denser than before.",
-    "Some cafes have been opened up in a few of those buildings.",
+    "Some cafes have opened up in a few of those buildings.",
     "I'm really happy with the construction of an outdoor gym, where I work out regularly.",
     ],
 '17 save money':[
@@ -87,7 +87,7 @@ Sentences = {
     "I also save by investing in long-term financial products, allowing my money to grow over time."
     ],
 '18 living house':[
-    "I live in a cozy apartment located in the heart of the street.",
+    "I live in a cozy apartment located in the heart of the city.",
     "It's a two bedroom unit with a small balcony that overlooks a busy street.",
     "I used to live in a detached house in a quiet suburban neighborhood, which had a garden where I could relax and unwind.",
     ],
