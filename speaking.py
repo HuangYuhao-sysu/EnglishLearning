@@ -101,6 +101,11 @@ Sentences = {
     "I downloaded some tutorials and started practising every day.",
     "With practices and persistence, I gradually got better, and Within a few months, I could play some simple songs.",
     ],
+'21 friendships':[
+    "Friendships are incredibly important in live.",
+    "They provide support, companionship, and a sense of belonging.",
+    "My friends are like an extended family to me, and I cherish the bond we share.",
+    ],
 }
 
 
