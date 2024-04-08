@@ -106,6 +106,11 @@ Sentences = {
     "They provide support, companionship, and a sense of belonging.",
     "My friends are like an extended family to me, and I cherish the bond we share.",
     ],
+'22 journaling':[
+    "Journaling is a valuable tool for mental wellbeing in this fast-paced world.",
+    "Putting pen to paper allows you to express yourself freely and helps manage stress, anxiety, and even sadness",
+    "Jotting down ideas and thoughts can help you think of innovative solutions to challenges.",
+    ],
 }
 
 
