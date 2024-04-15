@@ -111,6 +111,11 @@ Sentences = {
     "Putting pen to paper allows you to express yourself freely and helps manage stress, anxiety, and even sadness",
     "Jotting down ideas and thoughts can help you think of innovative solutions to challenges.",
     ],
+'23 city life':[
+    "I love the buzz of city life. There's always something to do and new places to explore.",
+    "My favorite part of city life is the variety of restaurants and cafes.",
+    "I love trying new cuisines and meeting with people from different cultures.",
+    ],
 }
 
 
