@@ -116,6 +116,11 @@ Sentences = {
     "My favorite part of city life is the variety of restaurants and cafes.",
     "I love trying new cuisines and meeting with people from different cultures.",
     ],
+'24 environment':[
+    "I'm very concerned about the environmental issues and try to live a sustainable lifestyle.",
+    "Recycling is a habit that I've adopted to reduce waste and help the environment.",
+    "I think everyone has a responsibility to protect our planet. We need to work together to create a more sustainable future.",
+    ],
 }
 
 
