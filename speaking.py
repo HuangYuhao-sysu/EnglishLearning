@@ -121,6 +121,11 @@ Sentences = {
     "Recycling is a habit that I've adopted to reduce waste and help the environment.",
     "I think everyone has a responsibility to protect our planet. We need to work together to create a more sustainable future.",
     ],
+'25 t-shirts':[
+    "I wear t-shirts on a daily basis as they are my go-to choice for casual attire.",
+    "Wether I'm running errands, meeting friends or lounging at home, a comfortable t-shirt is always my first choice.",
+    "I'm currently on the lookout for new t-shirts to refresh my wardrobe.",
+    ],
 }
 
 
