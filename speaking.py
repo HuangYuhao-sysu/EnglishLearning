@@ -126,6 +126,11 @@ Sentences = {
     "Wether I'm running errands, meeting friends or lounging at home, a comfortable t-shirt is always my first choice.",
     "I'm currently on the lookout for new t-shirts to refresh my wardrobe.",
     ],
+'26 more bicycle':[
+    "For me, the most convenient form of transportation is the bicycle.",
+    "It's easy to park, doesn't require fuel, and allows me to get some exercise at the same time.",
+    "of course, It's not always the suitable for long distances and bad weather, but it's ideal for most days.",
+    ],
 }
 
 
