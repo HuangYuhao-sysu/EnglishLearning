@@ -131,6 +131,11 @@ Sentences = {
     "It's easy to park, doesn't require fuel, and allows me to get some exercise at the same time.",
     "of course, It's not always the suitable for long distances and bad weather, but it's ideal for most days.",
     ],
+'27 ambitions':[
+    "One of my ambitions is becoming a polyglot over the next ten years.",
+    "To realize this goal, I plan to use language learning apps, and travel to practice in real life situations.",
+    "Being multilingual is a gateway to global opportunities and fosters a deeper understanding of the world.",
+    ],
 }
 
 

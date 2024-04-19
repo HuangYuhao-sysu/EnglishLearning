@@ -1589,6 +1589,7 @@ words = {
     'leisure':['leisure activity'],
     'esteem':['self-esteem'],
     'conceive':['conceive an idea'],
+    'plight':['the plight of the poor'],
 }
 
 import random
