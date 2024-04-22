@@ -136,6 +136,11 @@ Sentences = {
     "To realize this goal, I plan to use language learning apps, and travel to practice in real life situations.",
     "Being multilingual is a gateway to global opportunities and fosters a deeper understanding of the world.",
     ],
+'28 sport':[
+    "I think it's crucial for children to do sport.",
+    "It helps them stay fit and learn the importance of discipline and hard work.",
+    "My favorite sport was swimming. I loved the feeling of being in the water and the challenge of improving my techniques.",
+    ],
 }
 
 

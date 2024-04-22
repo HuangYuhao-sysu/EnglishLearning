@@ -1590,6 +1590,11 @@ words = {
     'esteem':['self-esteem'],
     'conceive':['conceive an idea'],
     'plight':['the plight of the poor'],
+    'exceptional':['exceptional is outstanding'],
+    'spoke':['put a spoke in sb\'s wheel'],
+    'rehearsal':['dress rehearsal'],
+    'tertiary':['tertiary education'],
+    'pyramid':['food pyramid'],
 }
 
 import random
