@@ -141,6 +141,11 @@ Sentences = {
     "It helps them stay fit and learn the importance of discipline and hard work.",
     "My favorite sport was swimming. I loved the feeling of being in the water and the challenge of improving my techniques.",
     ],
+'29 advertisement dislike':[
+    "This ad popped up on my screen repeatedly while I was scrolling through my social media feed.",
+    "It was a video advertisement promoting a fast food chain, showcasing their greasy burgers and fries.",
+    "I felt like the ad was stalking me, which made me feel very uncomfortable.",
+    ],
 }
 
 
