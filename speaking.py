@@ -146,6 +146,11 @@ Sentences = {
     "It was a video advertisement promoting a fast food chain, showcasing their greasy burgers and fries.",
     "I felt like the ad was stalking me, which made me feel very uncomfortable.",
     ],
+'30 spare time':[
+    "In my spare time, I like to go hiking and biking in the mountains.",
+    "I recently joined a mountain biking club and we meet on a particular trail every Sunday morning and ride together.",
+    "It's a great workout and a good way for me to meet new friends.",
+    ],
 }
 
 
