@@ -151,6 +151,11 @@ Sentences = {
     "I recently joined a mountain biking club and we meet on a particular trail every Sunday morning and ride together.",
     "It's a great workout and a good way for me to meet new friends.",
     ],
+'31 talk about Allen':[
+    "Allen loves trying out new recipes and making tasty dishes from all over the world.",
+    "He's especially good at grilling, his steaks and burgers are amazing.",
+    "he believes that food has a special way of bringing people together and creating awesome memories.",
+    ],
 }
 
 
