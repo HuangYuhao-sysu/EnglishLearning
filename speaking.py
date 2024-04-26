@@ -156,6 +156,11 @@ Sentences = {
     "He's especially good at grilling, his steaks and burgers are amazing.",
     "he believes that food has a special way of bringing people together and creating awesome memories.",
     ],
+'32 holidays':[
+    "I like to take thing slow during holidays.",
+    "I like to go sightseeing and try out some new activities, but I also want plenty of time to relax and unwind.",
+    "Having packed schedule and always being on the go isn't for me.",
+    ],
 }
 
 
