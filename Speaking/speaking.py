@@ -161,6 +161,11 @@ Sentences = {
     "I like to go sightseeing and try out some new activities, but I also want plenty of time to relax and unwind.",
     "Having packed schedule and always being on the go isn't for me.",
     ],
+'33 person I like':[
+    "The person I enjoy working with is my colleague, James",
+    "James has a great sense of humor, which makes the workplace fun and lively.",
+    "His ability to stay calm under pressure helps the team maintain focus at all times.",
+    ],
 }
 
 
